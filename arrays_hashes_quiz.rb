@@ -16,6 +16,8 @@ p stops
 stops.unshift("Glasgow Queen St")
 p stops
 # 3. Add `"Polmont"` at the appropriate point (between `"Falkirk High"` and `"Linlithgow"`)
+stops.insert(4, "Polmont")
+p stops
 # 4. Work out the index position of `"Linlithgow"`
 # 5. Remove `"Livingston"` from the array using its name
 # 6. Delete `"Cumbernauld"` from the array by index
