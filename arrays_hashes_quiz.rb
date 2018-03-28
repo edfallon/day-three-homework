@@ -22,9 +22,13 @@ look_for_position = stops.find_index("Linlithgow")
 
 # 5. Remove `"Livingston"` from the array using its name
 stops.delete("Livingston")
-p stops
+
 # 6. Delete `"Cumbernauld"` from the array by index
+stops.delete_at(2)
+p stops
 # 7. How many stops there are in the array?
+look_for_length = stops.length
+p look_for_length
 # 8. How many ways can we return `"Falkirk High"` from the array?
 # 9. Reverse the positions of the stops in the array
 # 10. Print out all the stops using a for loop
