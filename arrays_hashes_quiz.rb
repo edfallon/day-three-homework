@@ -34,8 +34,11 @@ stops[2]
 stops.fetch(2)
 # 9. Reverse the positions of the stops in the array
 stops.reverse!
-p stops
+
 # 10. Print out all the stops using a for loop
+for stations in stops
+  p stations
+end
 
 ## Exercise B
 
